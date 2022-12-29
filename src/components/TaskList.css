@@ -1,0 +1,33 @@
+section.taskList {
+  border-radius: 0rem;
+}
+.inputGroup {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+#inputList {
+  border: solid white 0.1;
+  gap: 0.25rem;
+  font-size: 16px;
+  padding: 12px 144px;
+  margin-top: -1.5rem;
+  border-radius: 8px;
+  color: #fff;
+}
+
+button {
+  border: white;
+  border-radius: 8px;
+  height: 44px;
+  padding: 12px 36px;
+  margin-top: -1.5rem;
+  background: #1e6f9f;
+  color: #fff;
+}
+button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}

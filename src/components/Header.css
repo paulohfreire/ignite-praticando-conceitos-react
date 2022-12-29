@@ -1,0 +1,13 @@
+.header {
+  background: #0d0d0d;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  background: #0d0d0d;
+}
+.image {
+  background: #0d0d0d;
+}
