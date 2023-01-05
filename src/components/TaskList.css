@@ -26,14 +26,19 @@ button {
   margin-top: -1.5rem;
   background: #1e6f9f;
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 button:hover {
   filter: brightness(0.9);
   cursor: pointer;
 }
 
-main {
+#plusIcon {
+  background: none;
+  margin-left: 5px;
 }
+
 ul {
   list-style: none;
   margin: 1rem 26%;
@@ -115,4 +120,60 @@ p {
 }
 #tasksCounter {
   background-color: #333333;
+}
+
+.noTasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 244px;
+  border-top: 1px solid #262626;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  padding: 64px;
+  gap: 1rem;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tasksContainer img {
+  height: 56px;
+  background: #262626;
+}
+
+.deleteTaskButton {
+  background: transparent;
+  border: 0;
+  line-height: 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#tasksButton {
+  background: transparent;
+  width: 20px;
+  margin-top: 22px;
+}
+
+.toComplete {
+  display: flex;
+  margin-left: 10px;
+}
+
+.completed {
+  display: flex;
+  margin-left: 10px;
+}
+
+.completed p {
+  color: #808080;
+  text-decoration: line-through;
 }
