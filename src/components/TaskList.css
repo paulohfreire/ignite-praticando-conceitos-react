@@ -177,3 +177,11 @@ p {
   color: #808080;
   text-decoration: line-through;
 }
+
+@media (max-width: 700px) {
+  .tasksTrack {
+    margin-left: 11rem;
+  }
+  .doneTasks {
+  }
+}
