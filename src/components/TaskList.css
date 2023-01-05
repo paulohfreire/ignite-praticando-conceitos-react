@@ -178,10 +178,36 @@ p {
   text-decoration: line-through;
 }
 
-@media (max-width: 700px) {
-  .tasksTrack {
-    margin-left: 11rem;
+@media (max-width: 500px) {
+  html {
+    max-width: 200px;
   }
-  .doneTasks {
+  .inputGroup {
+    font-size: 10px;
+  }
+  #inputList {
+    font-size: 10px;
+    padding: 10px 50px;
+  }
+  button {
+    height: 33px;
+    padding: 12px 36px;
+    margin-right: 1rem;
+  }
+  .deleteTaskButton {
+    margin-left: 2rem;
+  }
+  .tasksTrack {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  li {
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
   }
 }
